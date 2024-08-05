@@ -29,7 +29,7 @@
   display: flex;
   justify-content: center;
 }
-button {
+.navbar  button {
    background-color: #FBC531; 
   height: 55px;
   width: 60px;
@@ -47,6 +47,7 @@ button {
 header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .details-container div {
   margin: 10px;
@@ -54,5 +55,93 @@ header {
   margin-left: 10px;
 }
 .logo {
+  font-size: 25px;
+
+}
+.logo img{
+  height: 50px;
+}
+#hero{
+background-image: url(./images/jcb.jpg);
+height: 500px;
+width: 100vw;
+background-position: center;
+background-repeat: no-repeat;
+color: #fff;
+display: flex;
+
+
+}
+#hero h1{
   font-size: 50px;
+}
+#hero h2{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+
+#hero .container{
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+#hero .now{
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  padding: 0px 15px;
+
+}
+.box{
+  border: 1px solid gray;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(227, 229, 230);
+  background-color: white;
+  
+
+  
+
+  
+}
+.middle{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    transform: translateY(-50px);
+}
+.box img{
+  height: 50px;
+  width: 50px;
+}
+.box2{
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+ 
+ 
+}
+.box2 img{
+  height: 60px;
+  width: 60px;
+}
+.our-service .box2 h3{
+ padding-top: 30px;
+ font-weight: 400;
+}
+.our-service{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 90px;
+}
+#types{
+  margin-top: 90px;
 }
